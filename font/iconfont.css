@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3581179 */
-  src: url('iconfont.woff2?t=1660193608827') format('woff2'),
-       url('iconfont.woff?t=1660193608827') format('woff'),
-       url('iconfont.ttf?t=1660193608827') format('truetype');
+  src: url('iconfont.woff2?t=1663024782935') format('woff2'),
+       url('iconfont.woff?t=1663024782935') format('woff'),
+       url('iconfont.ttf?t=1663024782935') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,10 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xuexi:before {
+  content: "\e63b";
 }
 
 .icon-fengebiaoge:before {

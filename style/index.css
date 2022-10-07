@@ -1,9 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 
-
+.main_box{
+    min-height: 900px;
+    min-width: 1000px;
+}
 .main {
     width: 100%;
     height: 400px;
     position: relative;
+
 }
 
 /* 搜索框 */
@@ -43,13 +51,14 @@
     font-size: 16px;
     transition: 0.4s;
     line-height: 40px;
-    width: 0;
+    width: 240px;
+    padding-left: 10px;
 }
 
-.search-box:hover>.search-txt {
+/* .search-box:hover>.search-txt {
     width: 240px;
     padding: 0 6px;
-}
+} */
 
 .search-box:hover>.search-btn {
     background: white;
@@ -69,7 +78,6 @@
     justify-items: stretch;
     align-items: stretch;
     user-select: none;
-
 }
 
 .page_box{
@@ -82,6 +90,8 @@
     background-color: rgba(235, 235, 235, 0.9);
     transition: all 0.3s;
     box-shadow: 2px 4px 6px rgb(58, 57, 57);
+    color: #6c1fb4;
+
 }
 .page_contant:hover{
     border-radius: 40px;
@@ -111,7 +121,7 @@
 }
 
 .datetime{
-    width: 507px;
+    width: 520px;
     height: 114px;
     margin: 0 auto;
     margin-top: 50px;
@@ -124,7 +134,7 @@
 
 }
 .dailytext{
-    width: 741px;
+    width: 800px;
     height: 40px;
     margin: 0 auto;
     margin-top: 170px;
@@ -134,4 +144,22 @@
     font-size: 25px;
     text-align: center;
     user-select: none;
+}
+.changebcg,.play{
+    width: 65px;
+    height: 20px;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    user-select: none;
+    color: #eee;
+    float: right;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.changebcg:hover{
+    color: rgb(154, 206, 227);
+}
+.play:hover{
+    color: rgb(154, 206, 227);
 }
