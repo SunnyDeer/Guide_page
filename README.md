@@ -5,3 +5,5 @@
 2. 搜索
 3. 网址跳转
 4. 背景图片切换()
+## 效果
+![image]([url](https://raw.githubusercontent.com/Wispertise/Guide_page/main/image/1.png))
